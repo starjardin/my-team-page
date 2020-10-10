@@ -1,0 +1,44 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: auto;
+  padding: 1rem;
+  max-width: 1440px;
+}
+
+.masthead {
+  padding-block-end: 5rem;
+}
+
+.image__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  column-gap: 3rem;
+}
+
+picture:nth-child(2n) {
+  transform: translateY(25%);
+}
+
+picture {
+  position: relative;
+}
+
+.vertical {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  position: absolute;
+  top: 0;
+  right: -15%;
+}
+
+@media(min-width: 520px) {
+  .image__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }    
+}
