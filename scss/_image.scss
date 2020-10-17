@@ -5,7 +5,7 @@ img {
 
 body {
   margin: auto;
-  padding: 1rem;
+  padding: 2rem;
   max-width: 1440px;
 }
 
@@ -20,11 +20,11 @@ body {
   column-gap: 3rem;
 }
 
-picture:nth-child(2n) {
+.picture_container:nth-child(2n) {
   transform: translateY(25%);
 }
 
-picture {
+.picture_container {
   position: relative;
 }
 
@@ -40,5 +40,14 @@ picture {
   .image__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }    
+    row-gap: 15%;
+  }
+
+  .picture_container:nth-child(2n) {
+    transform: none;
+  }
+
+  .picture_container.add {
+    transform: translateY(30%);
+  }
 }
