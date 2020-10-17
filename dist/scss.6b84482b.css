@@ -1,3 +1,34 @@
+body {
+  background-color: #FAFAFA;
+  font-family: "Poppins";
+}
+
+h1 {
+  font-family: "PT serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h2,
+.masthead__paragraph {
+  font-family: "Poppins";
+  font-style: normal;
+  line-height: 27px;
+  font-size: 18px;
+  color: #000000;
+}
+
+h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.masthead__paragraph {
+  font-weight: normal;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -50,7 +81,7 @@ span {
   color: black;
 }
 
-@media(min-width: 520px) {
+@media (min-width: 520px) {
   .image__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -65,3 +96,5 @@ span {
     transform: translateY(30%);
   }
 }
+
+/*# sourceMappingURL=/scss.6b84482b.css.map */
