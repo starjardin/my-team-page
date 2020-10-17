@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://flamboyant-torvalds-f777af.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/starjardin/my-team-page">
       Solution
     </a>
   </h3>
@@ -45,7 +45,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
--   [React](https://reactjs.org/)
+-   [Html](https://reactjs.org/)
 -   [Vue.js](https://vuejs.org/)
 -   [Tailwind](https://tailwindcss.com/)
 

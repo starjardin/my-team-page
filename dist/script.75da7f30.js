@@ -124,7 +124,6 @@ var pictures = Array.from(pictureContainer.querySelectorAll("div"));
 for (var i = 1; i < pictures.length; i = i + 3) {
   var middlePicture = pictures[i];
   middlePicture.classList.add('add');
-  console.log(middlePicture);
 }
 },{}],"../../AppData/Roaming/npm/node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -154,7 +153,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60207" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52137" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
