@@ -39,8 +39,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 -   <a href="https://flamboyant-torvalds-f777af.netlify.app/">
       Demo
     </a>
--   What was your experience?
--   What have you learned/improved?
+-   I learned new css property in this project, and I think I need to work on my css skill.
 -   Your wisdom? :)
 
 ### Built With
